@@ -1,6 +1,6 @@
 import numpy as np
 import math
-from LoadData import get_data
+from load_data import get_data
 import sys
 import os
 
