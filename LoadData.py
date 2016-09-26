@@ -1,3 +1,8 @@
+# Read and load movie rating data into a numpy array named ratings. 
+# Each rating is in [userID, movieID, rating] format. 
+# Assume MovieLens 100k, 1m, 10m and 20m data set are saved in Data/ml-100k, Data/ml-1m, 
+# Data/ml-10m, and Data/ml-20m respectively.
+
 import os
 import numpy as np
 
@@ -37,8 +42,6 @@ def get_data(size):
     ratings = np.array(ratings, dtype = np.float32)
     # permute the ratings array
     ratings = np.random.permutation(ratings)
-    # Adjust all ratings to zero mean
-    # ratings[:, 2] = ratings[:, 2] - 3
     print("Loading data done")
     return ratings
 
