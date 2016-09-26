@@ -6,7 +6,7 @@ Lim, Y. J., & Teh, Y. W. (2007). Variational Bayesian
 approach to movie rating prediction. _Proceedings of
 KDD Cup and Workshop._
 
-When applying this implementation on MovieLens dataset and randomly select 10% data as test set. I achieved the following RMSE:
+When applying this implementation on MovieLens dataset and randomly select 10% data as test set. I achieved the following RMSE (Average of 5 runs):
 
 * MovieLens 100k, RMSE = 0.9039
 * MovieLens 1m, RMSE = 0.8384
