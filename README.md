@@ -10,4 +10,4 @@ When applying this implementation on MovieLens dataset and randomly select 10% d
 
 * MovieLens 100k, RMSE = 0.9039
 * MovieLens 1m, RMSE = 0.8384
-* MovieLens 10m, RMSE = 0.7812
+* MovieLens 10m, RMSE = 0.7774
